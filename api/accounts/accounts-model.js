@@ -1,9 +1,7 @@
 const db = require("./../../data/db-config")
 
 const getAll = () => {
-  const records = db('accounts')
-  console.log(records)
-  return records
+  return db('accounts')
 }
 
 const getById = id => {
